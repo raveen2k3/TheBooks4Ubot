@@ -52,9 +52,7 @@ async def search(client , message):
     )
        
   await t.delete()
-  sender_name=message.from_user.first_name
-  sender_username=message.from_user.username
-  await Rias.send_message(chat_id=-1001844178222 , text="bookname :"+ bookname +"\n\n" +"requested by :" + sender_name + " " +"\n\nSender Username : "+ "@" +sender_username  + " " + "\n\nSender ID : " + str(message.from_user.id))
+  
   
 @Rias.on_inline_query(filters.regex(r"^(?P<input>[\S ]+)$") )
 async def answer(client, inline_query):

@@ -3,4 +3,4 @@ if __name__ == "__main__":
     try:
         Rias.run()
     except:
-        print("fuck you")
+        print("something wrong with allocation in local files / plugin allocation")

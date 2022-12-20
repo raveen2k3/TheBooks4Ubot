@@ -1,0 +1,4 @@
+libgen_api==1.0.0
+pymongo==4.3.3
+Pyrogram==2.0.26
+TgCrypto
